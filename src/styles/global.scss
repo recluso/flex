@@ -285,6 +285,7 @@ a {
     margin-bottom: 1.5rem;
     background-color: var(--input-bg);
     font-family: $font-family;
+    font-size: 16px;
   }
   textarea {
     margin-bottom: 2rem;
@@ -420,4 +421,11 @@ iframe {
 
 .dark-text {
   color: #690013;
+}
+
+.form-container input[type=email], 
+.form-container input[type=text], 
+.form-container textarea,
+input  {
+  font-size: 16px;
 }
