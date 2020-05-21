@@ -6,7 +6,7 @@ title: First Flex Wednesday
 metaDescription: Yorkshire countryside ride
 thumbnail: /assets/flex1.jpg
 ---
-# First flex Wednesday, 8 weeks into lockdown in the UK
+## First flex Wednesday, 8 weeks into lockdown in the UK
 
 On a whim I decided I should really use my flex time for something useful.  So I went on a long ride which passed through a couple of places I used to live and do not have warm feelings for. But I also got in a good long ride with some nice stretches.  I will try to make a habit o this.
 
