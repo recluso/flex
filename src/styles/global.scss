@@ -10,18 +10,18 @@ body {
 }
 body.light {
   --primary-color: #99001C;
-  --primary-text-color: #99001C;
-  --featured-bg: #493b8a;
+  --primary-text-color: #fff;
+  --featured-bg: #99001C;
   --featured-text: #fff;
-  --secondary-color: #a11932;
+  --secondary-color: #10072b;
   --background: #fff;
   --site-header: var(--background);
   --card-bg: #fff;
   --card-bdr: #eee;
   --card-shadow: #d5d5d5;
-  --btn-bg: #bc1231; /* var(--background) */
-  --btn-bdr: #e7d3d3;
-  --btn-text-color: #928686;
+  --btn-bg: var(--background);
+  --btn-bdr: #d3d6e7;
+  --btn-text-color: #868892;
   --btn-hover-bg: var(--btn-bdr);
   --btn-hover-text-color: #00062b;
   --contact-bg: #f7f8fe;
