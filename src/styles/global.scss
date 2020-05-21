@@ -10,7 +10,7 @@ body {
 }
 body.light {
   --primary-color: #99001C;
-  --primary-text-color: #fff;
+  --primary-text-color: #99001C;
   --featured-bg: #493b8a;
   --featured-text: #fff;
   --secondary-color: #a11932;
@@ -62,7 +62,7 @@ a {
   text-decoration: none;
   &:hover {
     text-decoration: underline;
-    color: #058b8c;
+    /* color: #058b8c; */
   }
 }
 .site-wrapper {
