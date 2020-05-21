@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /rides/first-flex
+path: /rides/1
 date: 2020-05-21T16:11:40.861Z
 title: First Flex Wednesday
 metaDescription: Yorkshire countryside ride
