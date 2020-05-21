@@ -19,9 +19,9 @@ body.light {
   --card-bg: #fff;
   --card-bdr: #eee;
   --card-shadow: #d5d5d5;
-  --btn-bg: var(--background);
-  --btn-bdr: #d3d6e7;
-  --btn-text-color: #868892;
+  --btn-bg: #bc1231; /* var(--background) */
+  --btn-bdr: #e7d3d3;
+  --btn-text-color: #928686;
   --btn-hover-bg: var(--btn-bdr);
   --btn-hover-text-color: #00062b;
   --contact-bg: #f7f8fe;
@@ -31,7 +31,7 @@ body.light {
 body.dark {
   --primary-color: #99001C;
   --primary-text-color: #fff;
-  --featured-bg: #66578d;
+  --featured-bg: #99001c;
   --featured-text: #fff;
   --secondary-color: #a11932;
   --background: #1a040a;
@@ -41,11 +41,11 @@ body.dark {
   --card-bg: #261319;
   --card-bdr: #261319;
   --card-shadow: #040203;
-  --btn-bg: var(--background);
-  --btn-bdr: #e7d3d9;
-  --btn-text-color: #92868a;
+  --btn-bg: #bc1231; /* var(--background) */
+  --btn-bdr: #e7d3d3;
+  --btn-text-color: #928686;
   --btn-hover-bg: var(--btn-bdr);
-  --btn-hover-text-color: #2b0016;
+  --btn-hover-text-color: #2b000d;
   --contact-bg: var(--card-shadow);
   --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
@@ -412,4 +412,8 @@ iframe {
 
 .post-thumbnail:before {
     background: rgba(64, 212, 224, .1);
+}
+
+.dark-text {
+  color: #690013;
 }
