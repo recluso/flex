@@ -16,8 +16,8 @@ const ContactPage = ({
       </Helmet>
       <div className="two-grids -contact">
         <div className="post-thumbnail" style={{backgroundImage: `url('/assets/pintura.jpg')`, marginBottom: 0}}>
-          <h1 className="post-title" style="color:#99001c">Get in Touch</h1>
-         
+          <h1 className="post-title">Get in Touch</h1>
+          <p>&rarr; &rarr; &rarr;</p>
         </div>
         <div>
           <form className="form-container" name="contact" method="POST" data-netlify="true">
