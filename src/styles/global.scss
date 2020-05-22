@@ -330,6 +330,43 @@ a {
   }
 }
 
+// for the iframe
+.komoot-container {
+  position: relative;
+  padding-bottom: 88%;
+  height: 0;
+  overflow: hidden;
+}
+
+// for the iframe on mobile
+@media only screen and (max-width: 812px) and (orientation: landscape) {
+  .komoot-container {
+    position: relative;
+    padding-bottom: 83%;
+    height: 0;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 812px) and (orientation: portrait) {
+  .komoot-container {
+    position: relative;
+    padding-bottom: 162%;
+    height: 0;
+    overflow: hidden;
+  }
+}
+
+.komoot-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// for iframe end
+
 // theme-changer
 .theme-changer {
   display: none;
@@ -430,19 +467,4 @@ iframe {
 .form-container textarea,
 input {
   font-size: 16px;
-}
-
-.komoot-container {
-  position: relative;
-  padding-bottom: 75%;
-  height: 0;
-  overflow: hidden;
-}
-
-.komoot-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
