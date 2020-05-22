@@ -12,6 +12,6 @@ I decided I should  use my flex time for something useful.  So I went on a long 
 
 <div class="komoot-container">
 
-<iframe src="https://www.komoot.com/tour/188491406/embed?profile=1" width="640" height="580" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://www.komoot.com/tour/188491406/embed?profile=1" width="100%" height="580" frameborder="0" scrolling="no"></iframe>
 
 </div>
