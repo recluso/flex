@@ -9,21 +9,6 @@ module.exports = {
   siteMetadata: require("./site-meta-data.json"),
   plugins: [
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Merriweather`,
-            variants: [`700`]
-          },
-          {
-            family: `Montserrat`,
-            subsets: [`400`]
-          },
-        ],
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
@@ -59,16 +44,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Flex Wednesday`,
-        short_name: `flexwednesday`,
+        name: `Delog GatbsyJS Starter`,
+        short_name: `Delog`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#99001c`,
+        theme_color: `#381696`,
         display: `standalone`,
         icon: "src/images/icon.png",
       },
     },
-    `gatsby-plugin-sass`,
+    `gatsby-plugin-sass`, 
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-dark-mode',
