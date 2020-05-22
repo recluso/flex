@@ -22,7 +22,7 @@ export default () => (
             className="primary-content"
             dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description }}
           />
-          <div className="stravaList">
+          <div className="btn-area">
             <Link to='/contact' className="button -primary">Get in touch &rarr;</Link>
           </div>
         </div>
