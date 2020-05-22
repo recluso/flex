@@ -305,18 +305,18 @@ a {
 
   .frontcontain {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 1px 10px;
-    grid-template-areas: "primary-content primary-content primary-content primary-content primary-content primary-content primary-content primary-content primary-content btn-area btn-area btn-area";
+    gap: 1px 15px;
+    grid-template-areas: "left left left left right right";
   }
 
   .primary-content {
-    grid-area: primary-content;
+    grid-area: left;
   }
 
-  .btn-area {
-    grid-area: btn-area;
+  .stravaList {
+    grid-area: right;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -467,12 +467,4 @@ iframe {
 .form-container textarea,
 input {
   font-size: 16px;
-}
-
-.btn-area button {
-  margin: 0 auto;
-  display: block;
-  max-width: 175px;
-  box-sizing: border-box;
-  text-align: center;
 }
