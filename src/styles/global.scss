@@ -308,14 +308,14 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 1px 15px;
-    grid-template-areas: "left left left left right right";
+    grid-template-areas: "left left left left left right";
   }
 
   .primary-content {
     grid-area: left;
   }
 
-  .stravaList {
+  .btn-area {
     grid-area: right;
   }
 }
@@ -467,4 +467,10 @@ iframe {
 .form-container textarea,
 input {
   font-size: 16px;
+}
+
+.btn-area .button {
+  display: block;
+  margin: auto;
+  margin-right: auto;
 }
