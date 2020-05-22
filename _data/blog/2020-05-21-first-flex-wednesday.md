@@ -10,6 +10,5 @@ thumbnail: /assets/flex1.jpg
 
 I decided I should  use my flex time for something useful.  So I went on a long ride which passed through a couple of places I used to live and do not have warm feelings for. But I also got in a good long ride with some nice stretches.  I will try to make a habit o this.
 
-<div id="iframecontainer" style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
- <iframe width="100%" height="100%" frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/3482087271/embed/98eb13a5b332ba6a8814307bf7dfe8a5ba4420cb' style="position:absolute; top:0; left: 0"></iframe>
-</div>
+
+<iframe frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/3482087271/embed/98eb13a5b332ba6a8814307bf7dfe8a5ba4420cb'></iframe>
