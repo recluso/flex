@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /rides/23-may-2020
-date: 2020-05-01T22:00:00.000Z
+date: 2020-05-23T22:00:00.000Z
 title: Windy at the tops
 metaDescription: 'A long Saturday ride up in the Dales, very windy.'
 thumbnail: /assets/dales.jpg
